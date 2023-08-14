@@ -14,29 +14,48 @@
  *= require_self
  */
 
- * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
- }
+}
 
- .letters {
+.letters {
   margin-top: 30px;
   display: flex;
   gap: 10px;
   justify-content: center;
- }
- .letter {
+}
+.letter {
   padding: 10px 15px;
   background-color: black;
   color: white;
   border-radius: 50;
   cursor: pointer;
   transition: .1s ease-in-out;
- }
+}
 
- .letter:hover {
+.letter:hover {
   background-color: white;
   color: black;
+}
 
- }
+form {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  gap: 5px;
+}
+
+.input-text {
+border: none;
+background-color: black;
+color: white;
+padding: 20px;
+}
+
+.input-submit {
+  border: 1px solid black;
+  background-color: white;
+  padding: 20px;
+}
