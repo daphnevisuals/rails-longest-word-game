@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+ .letters {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+ }
+ .letter {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 50;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+ }
+
+ .letter:hover {
+  background-color: white;
+  color: black;
+
+ }
